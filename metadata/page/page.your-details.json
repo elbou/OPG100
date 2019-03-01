@@ -1,0 +1,76 @@
+{
+  "_id": "page.your-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.your-details--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Mr",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Mrs",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Miss",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Ms",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__5",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.your-details--radios.auto_name__2--radio.auto_value__5--text.auto_name__3",
+            "_type": "text",
+            "label": "Other title",
+            "name": "auto_name__3"
+          },
+          "label": "Other",
+          "value": "auto_value__5"
+        }
+      ],
+      "legend": "Title",
+      "name": "auto_name__2"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__4",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__5",
+      "_type": "text",
+      "label": "Your phone number",
+      "name": "auto_name__5"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__6",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__6"
+    },
+    {
+      "_id": "page.your-details--textarea.auto_name__7",
+      "_type": "textarea",
+      "label": "Your address",
+      "name": "auto_name__7"
+    }
+  ],
+  "heading": "Your details",
+  "url": "your-details"
+}

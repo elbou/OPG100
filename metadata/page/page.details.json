@@ -1,0 +1,54 @@
+{
+  "_id": "page.details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.details--text.auto_name__8",
+      "_type": "text",
+      "label": "Their full name",
+      "name": "auto_name__8"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.details--date.auto_name__9",
+      "_type": "date",
+      "label": "Their date of birth",
+      "name": "auto_name__9"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.details--text.auto_name__10",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__10"
+    },
+    {
+      "_id": "page.details--textarea.auto_name__11",
+      "_type": "textarea",
+      "label": "Their address",
+      "name": "auto_name__11"
+    },
+    {
+      "_id": "page.details--textarea.auto_name__12",
+      "_type": "textarea",
+      "label": "Their alternative addres",
+      "name": "auto_name__12",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "Request Details",
+  "lede": "Details of the donor (LPA/EPA) or client (deputyship) you are searching for",
+  "url": "details"
+}
